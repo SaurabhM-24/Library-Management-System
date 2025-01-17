@@ -18,4 +18,5 @@ MySQLdb library for connecting python and MySQL,
 No other software requirements.
 Hardware requirements - the code has no specific requirements and should be able to run on any machine.
 
+
 I am still new to the world of coding so looking forward to everyone's guidance!
