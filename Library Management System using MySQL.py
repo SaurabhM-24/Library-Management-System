@@ -8,6 +8,7 @@ def AddBooks():
     print('\n'+'-'*15)
     print('   Add Books')
     print('-'*15+'\n')
+    
 
     cur.execute('SELECT MAX(BID) FROM Books')
     row = cur.fetchone()
