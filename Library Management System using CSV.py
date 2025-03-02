@@ -9,6 +9,7 @@ def NewBooks():
         ID=1001
         
         while True:
+            
             Name=input('\nEnter the name of book : ')
             Author=input('Enter the name of the author : ')
             Genre1=input('Enter the genre of the book : ')
