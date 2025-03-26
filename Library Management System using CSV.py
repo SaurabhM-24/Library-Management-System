@@ -2,6 +2,7 @@ import csv
 import datetime
 
 def NewBooks():
+    
     with open('Books.csv','w',newline='') as F:
         L=[]
         W=csv.writer(F)
