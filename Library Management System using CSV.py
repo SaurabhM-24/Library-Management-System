@@ -6,6 +6,7 @@ def NewBooks():
     with open('Books.csv','w',newline='') as F:
         
         L=[]
+        
         W=csv.writer(F)
         W.writerow(['BookID','Name','Author','Genre1','Genre2','Genre3','Copies','Issued','SC','Price','Ext URL1','Ext URL2'])
         ID=1001
