@@ -9,7 +9,6 @@ def AddBooks():
     print('   Add Books')
     print('-'*15+'\n')
     
-
     cur.execute('SELECT MAX(BID) FROM Books')
     row = cur.fetchone()
     ID = 1000 if row==(None,) else int(row[0])
