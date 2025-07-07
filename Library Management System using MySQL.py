@@ -4,7 +4,6 @@ import datetime
 db = MySQLdb.connect(host='localhost', user='root', password='pass4MySQL')
 cur = db.cursor()
 
-
 def AddBooks():
     print('\n'+'-'*15)
     print('   Add Books')
