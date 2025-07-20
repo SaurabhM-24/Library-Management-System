@@ -12,6 +12,8 @@ def AddBooks():
     cur.execute('SELECT MAX(BID) FROM Books')
     row = cur.fetchone()
     ID = 1000 if row==(None,) else int(row[0])
+
+
     
     while True:
         ID+=1
