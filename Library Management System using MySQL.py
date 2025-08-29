@@ -13,8 +13,6 @@ def AddBooks():
     row = cur.fetchone()
     ID = 1000 if row==(None,) else int(row[0])
 
-
-    
     while True:
         ID+=1
         Name=input('\nEnter the name of book : ')
@@ -894,3 +892,4 @@ while True:
         break
     else:
         print('\nPlease enter a valid option')
+
