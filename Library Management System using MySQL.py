@@ -14,8 +14,11 @@ def AddBooks():
     ID = 1000 if row==(None,) else int(row[0])
 
     while True:
+        
         ID+=1
+        
         Name=input('\nEnter the name of book : ')
+        
         Author=input('Enter the name of the author : ')
         Genre1=input('Enter the genre of the book : ')
         Genre2=input('Enter the another genre [press enter if none] : ')
@@ -892,4 +895,5 @@ while True:
         break
     else:
         print('\nPlease enter a valid option')
+
 
