@@ -7,7 +7,6 @@ def NewBooks():
         W=csv.writer(F)
         W.writerow(['BookID','Name','Author','Genre1','Genre2','Genre3','Copies','Issued','SC','Price','Ext URL1','Ext URL2'])
         ID=1001
-
         
         while True:            
             Name=input('\nEnter the name of book : ')
@@ -1060,6 +1059,7 @@ while True:
         break
     else:
         print('\nPlease enter a valid option')
+
 
 
 
