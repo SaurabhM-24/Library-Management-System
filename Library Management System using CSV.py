@@ -25,6 +25,7 @@ def NewBooks():
             L.append([ID,Name,Author,Genre1,Genre2,Genre3,Copies,Issued,Softcopy,Price,URL1,URL2])
             ID+=1
             ask=input('\n\nEnter more books? [Y/N] : ')
+            
             if ask in 'Nn':
                 break
                 
@@ -43,6 +44,7 @@ def AddBook():
         for i in R:
             L.append(i)
             ID=int(i[0])
+            
         while True:
             ID+=1
             Name=input('\nEnter the name of book : ')
@@ -1059,6 +1061,7 @@ while True:
         break
     else:
         print('\nPlease enter a valid option')
+
 
 
 
