@@ -9,6 +9,7 @@ def AddBooks():
     print('   Add Books')
     print('-'*15+'\n')
     
+    
     cur.execute('SELECT MAX(BID) FROM Books')
     row = cur.fetchone()
     
@@ -895,6 +896,7 @@ while True:
         break
     else:
         print('\nPlease enter a valid option')
+
 
 
 
