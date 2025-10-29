@@ -227,6 +227,7 @@ def ModifyUser(UID, Adm):
                 if change=='1':
                     new = input('Enter you new username : ')
                     sql = 'UPDATE Users SET Name=%s WHERE UID=%s'
+                    
                 elif change=='2':
                     while True:
                         Num = input('Please enter your new mobile number : ')
@@ -894,6 +895,7 @@ while True:
         break
     else:
         print('\nPlease enter a valid option')
+
 
 
 
