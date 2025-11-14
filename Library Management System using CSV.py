@@ -445,6 +445,7 @@ def Issued(UID):
                 count+=1
                 with open('Books.csv','r',newline='') as Fb:
                     Rb=csv.reader(Fb)
+                    
                     for x in Rb:
                         if x[0]==i[0]:
                             print('|%50s |%11s |%11s |%9s |' % (x[1][:48],i[2],i[3],i[4]))
@@ -1060,6 +1061,7 @@ while True:
         break
     else:
         print('\nPlease enter a valid option')
+
 
 
 
